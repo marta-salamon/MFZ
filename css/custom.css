@@ -1,0 +1,280 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+/* Top navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.topnav {
+  padding:5rem 0 2rem;
+  text-align: left;
+}
+.registeronline{
+	font-variant: small-caps;
+	font-size:2.2rem;
+	vertical-align: middle;
+	line-height:7rem;
+	display: inline-block;
+	
+}
+.inlinepic{
+	display: inline-block;
+	height:5rem;
+	
+}
+@media (min-width: 550px) {
+	.inlinepic{
+		height:12rem;
+	}
+}
+/* Menu navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.menunav {
+  padding:0 1rem 2rem  0;
+  text-align: center;
+}
+.menunavtext{
+	font-family: Open Sans;
+	font-size: 1.2rem;
+	color: #5e676d;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 9rem 0 8rem;
+  text-align: center;
+}
+.sectionsection-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.phones {
+  position: relative;
+}
+.phone {
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;
+}
+.phone + .phone {
+  display: none;
+}
+
+/* carousels
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.carousels {
+  background-image: url('../images/doctor.jpg');
+  background-size: cover;
+  height:9rem;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.carousel-multiplier {
+  margin-bottom: .5rem;
+  color: #11DFC7;
+}
+.carousel-heading {
+  margin-bottom: .3rem;
+}
+.carousel-description {
+  opacity: .8;
+  font-weight: 300;
+}
+.whiteframe{
+	background-color:#fff;
+	opacity:1;
+	padding:2rem;
+	margin:2rem;
+}
+.sbutton{
+	color: #fff;
+	background-color: #294da3;
+	padding: 1rem;
+	font-variant: small-caps;
+	cursor: pointer;
+	overflow: visible;
+	float: right;
+	width: 20rem;
+	text-align:center;
+}
+.carousel-bg-example{
+	display: block;
+	width: auto;
+	max-width: 100%;
+	position: relative; 
+	
+}
+.imagewrapper
+{
+	position: relative;	
+	width: 100%;	
+}
+   
+.linkposition{  
+   position: absolute; 
+   top: 30%;
+   left: 0; 
+   width: 100%; 
+   text-align:center;
+   vertical-align:center;
+   color:#fff;
+   font-variant:small-caps;
+   font-size:2.2rem;
+}
+/* Quote
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.quotes {
+  border-bottom: 1px solid #ddd;
+}
+.bigquote{
+	font-size:15rem;
+	font-family: Cinzel, serif;
+	color: #2f2c64;
+}
+span{
+	color: #5e676d;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  background-image: url("../images/tabletki.jpg");
+}
+.categories .section-description { 
+  margin-bottom: 4rem;
+}
+.uslugi{
+	font-size:3rem;
+	font-variant: small-caps;
+}
+/* STOPKA */
+.stopka{
+	text-align: left;
+	padding: 2rem 0 2rem;
+}
+.stopkatext{
+	line-height: 4rem;
+	color: #5e676d;
+	
+}
+.koniecstrony{
+	padding: 1rem, 0 1rem;
+	background-color: #294da3;
+	color: #7c859c;
+	font-size:0.8rem;
+	line-height:1.2rem;
+}
+
+a:link {
+	font-family: inherit;
+	color: #8694a3;
+}
+
+/* visited link */
+a:visited {
+	color: #8694a3;
+}
+
+/* mouse over link */
+a:hover {
+    color: #8694a3;
+}
+
+/* selected link */
+a:active {
+    color: #8694a3;
+}
+
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 15rem 0 13rem;
+  }
+  .hero {
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 165px;
+  }
+  .phone {
+    position: absolute;
+    top: -7rem;
+    right: 3rem;
+    max-height: 362px;
+    z-index: 3;
+  }
+  .phone + .phone {
+    top: -6rem;
+    display: block;
+    max-width: 73.8%;
+    right: 0;
+    z-index: 2;
+    max-height: 338px;
+  }
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .hero {
+    height: 190px;
+  }
+  .hero-heading {
+    font-size: 2.6rem;
+  }
+  .section {
+    padding: 19rem 0 18rem;
+  }
+  .hero {
+    padding: 16rem 0 14rem;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .phone {
+    top: -14rem;
+    right: 5rem;
+    max-height: 510px;
+  }
+  .phone + .phone {
+    top: -12rem;
+    max-height: 472px;
+  }
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+}
+/* CAPSY */
+.capslock{
+	font-variant: small-caps;
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 20rem 0 18rem;
+  }
+  .hero {
+    padding: 22rem 0;
+  }
+  .hero-heading {
+    font-size: 3.0rem;
+  }
+  .phone {
+    top: -16rem;
+    max-height: 615px;
+  }
+  .phone + .phone {
+    top: -14rem;
+    max-height: 570px;
+  }
+}
